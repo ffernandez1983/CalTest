@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml" ng-app="app">
+	<head>
+		<meta charset="utf-8">
+		<title>CalendarTest</title>
+		<base href="/">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="mobile-web-app-capable" content="yes">
+
+		<!--<link rel="icon" type="image/x-icon" href="favicon.ico">-->
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.js"></script>
+        <script src="https://code.angularjs.org/1.6.4/angular-route.js"></script>
+
+        <script src="app/app.js"></script>
+        
+        <script src="app/routes/route.js"></script>
+        
+        <script src="app/calendar/directive.calendar.js"></script>
+        
+	</head>
+	<body>
+		<calendar></calendar>
+		<div ng-view></div>
+
+	</body>
+</html>
+
