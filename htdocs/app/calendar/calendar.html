@@ -3,11 +3,11 @@
 
 	<div id="controles">
 		<div id ="fecha">
-			<div id="mes" class="mes">{{cactrl.NombreMesPedido}} de 2017</div>
+			<div id="mes" class="mes">{{cactrl.NombreMesPedido}} de {{cactrl.anyo}}</div>
 		</div>
 		<div id ="flechas">
 			<button id="flecha-arr" ng-click="cactrl.inicializar(cactrl.mes+1, cactrl.anyo, cactrl.dia)" class="flecha">arriba</button>
-			<button id="flecha-abj" ng-click="cactrl.inicializar(cactrl.mes-1, cactrl.anyo, cactrl.dia)" class="flecha">abajo</button>
+			<button id="flecha-abj" ng-click="cactrl.inicializar(cactrl.mes-1, cactrl.anyo, cactrl.dia)" class="flecha">abajo</button>			
 		</div>
 	</div>
 	

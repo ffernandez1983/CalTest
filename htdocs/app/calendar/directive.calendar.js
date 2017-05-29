@@ -65,9 +65,19 @@
         function inicializar(mes, anyo, dia){
             k = 1;
             l = 1;
-
-            self.mes = mes;
-
+			
+            //Cambia de a?o
+			if (mes == 13){
+				anyo= anyo+1;
+				mes = 1;
+			}			
+			if(mes == 0){
+				anyo = anyo -1;
+				mes = 12;
+			}
+			
+			self.mes = mes;
+			self.anyo = anyo;
             self.semanas = [];
             self.posiciones = [];
 
